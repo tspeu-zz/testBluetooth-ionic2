@@ -1,0 +1,28 @@
+.home {
+  
+ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 6%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color:color($colors, light);
+  }
+
+  .card-subtitle {
+    font-size: 1.5em;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    color: color($colors, light);
+    font-style: bold;
+  }
+
+
+
+}

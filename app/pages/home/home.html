@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar primaryW>
+    <ion-title text-center>
+       <img src="img/logo.png"/>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+    <ion-card>
+    <img src="img/sell-car.jpg"/>
+    <div class="card-title">Vendez votre voiture en 1h,</div>
+    <div class="card-subtitle">en toute sécurité!</div>
+  </ion-card>
+
+  <ion-list>
+     <ion-item>LBlueTooth
+      <button outline item-right (click)="gotoBlue()">
+        <ion-icon name="star"></ion-icon>
+       BlueTooth1
+      </button>
+    </ion-item>
+    
+    <button ion-item large full (click)="gotoBlue()">BlueTooth
+        <ion-icon name="md-bluetooth" item-right></ion-icon>
+    </button>
+
+    <button large full (click)="gotoBlue()">
+      <ion-icon name="md-bluetooth" item-left></ion-icon>
+     BlueTooth2
+    </button>
+
+    <button ion-item (click)="gotoBlue()">
+     <ion-avatar item-left>
+      <img src="img/gota.png">
+    </ion-avatar>
+   BlueTooth3
+    <ion-icon name="ios-arrow-forward-outline" item-right></ion-icon>
+  </button>
+
+
+  </ion-list>
+
+</ion-content>
